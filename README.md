@@ -1,7 +1,10 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg?raw=true"
-     width="20%"
-     align="right"
-     style="float: right; margin: 10px 0px 20px 20px;" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/misc/dark_icon.png">
+  <img src="/misc/icon.png"
+            align="right"
+            width="20%"
+     style="float: right; margin: 10px 0px 20px 20px;">
+</picture>
 
 # Home Assistant OpenAI Response Sensor
 
