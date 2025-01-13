@@ -26,14 +26,15 @@ openai_input:
       advanced: true
       description: The model to use
       required: false
-      example: "gpt-3.5-turbo"
-      default: "gpt-3.5-turbo"
+      example: "gpt-4o-mini"
+      default: "gpt-4o-mini"
       selector:
         select:
           options:
-            - "gpt-3.5-turbo"
-            - "gpt-4"
-            - "gpt-4-turbo"
             - "gpt-4o"
-
-
+            - "gpt-4o-mini"
+            - "o1"
+            - "o1-mini"
+            - "gpt-4-turbo"
+            - "gpt-4"
+            - "gpt-3.5-turbo"
